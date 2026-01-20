@@ -1,0 +1,28 @@
+@charset "UTF-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    width: 70%;
+}
+h1{
+    background-color: rgba(0, 132, 255, 0.753);
+    color: rgba(0, 89, 255, 0.822);
+    text-align: center;
+    margin: auto;
+}
+.bio{
+    text-align: center;
+}
+.topico{
+    background-color: gray;
+    color: rgba(0, 0, 255, 0.596);
+    border-bottom:2px solid blue;
+}
+a{
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+.sub{
+    font-weight: bold;
+}

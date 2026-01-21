@@ -12,6 +12,9 @@ h1{
 }
 .bio{
     text-align: center;
+    background-color: rgba(0, 132, 255, 0.411);
+    margin-top: 0;
+    font-weight: bold;
 }
 .topico{
     background-color: gray;
@@ -23,6 +26,27 @@ a{
     font-weight: bold;
     text-decoration: none;
 }
+.menu{
+    text-align: right;
+}
+
+.menu li{
+        list-style: none;
+        display: inline-block;
+        padding: 16px;
+        text-align: right;
+}
+
+.menu a{
+    background-color: rgba(0, 0, 255, 0.295);
+    padding: 16px;
+}
+
+.menu a:hover{
+    color: rgba(3, 41, 63, 0.521);
+    background-color: rgba(128, 128, 128, 0.534);
+}
+
 .sub{
     font-weight: bold;
 }

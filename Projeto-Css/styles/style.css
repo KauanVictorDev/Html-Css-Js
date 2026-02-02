@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #CCC;
+}
+
+.topo{
+    background-image: url(../imagens/bg-3.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: right center;
+    padding-top: 1px;
+}
+
+.content{
+    margin: 50px auto 0;
+    width: 80%;
+    text-align: center;
+    color: white;
+}
+
+.content h1{
+    font-size: 56px;
+    text-shadow: 2px 2px 2px black;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.content p{
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+    display: inline-block;
+    padding: 16px;
+    border-bottom: 2px solid white;
+
+}
+
+.menu ul{
+    margin: 20px 80px 0 0;
+    text-align: right;
+}
+
+.menu li{
+    text-align: right;
+    display: inline-block;
+    list-style: none;
+    border: 1px solid white;
+    margin-left: 15px;
+
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    display: block;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+a:hover{
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+article{
+    background-color: white;
+    max-width: 860px;
+    padding: 16px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+
+}
+
+article h2{
+    border-bottom: 2px solid #ccc;
+    background-color: #eee;
+    padding: 5px;
+    margin-top: 0;
+}

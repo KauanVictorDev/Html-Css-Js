@@ -60,7 +60,7 @@ body{
     letter-spacing: 1px;
 }
 
-a:hover{
+.menu a:hover{
     transition: 0.5s;
     background-color: rgba(0, 0, 0, 0.7);
 }
@@ -84,4 +84,27 @@ article h2{
     background-color: #eee;
     padding: 5px;
     margin-top: 0;
+}
+
+a.button{
+    background-color: #cdc7c3;
+    display: inline-block;
+    padding: 7px;
+    text-decoration: none;
+    color: gray;
+    border-radius: 5px;
+}
+
+a.button:hover{
+    color: white;
+    transition: 0.2s;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.copyright{
+    color: white;
+    text-align: center;
+    background-color: #6b6c68;
+    padding: 10px;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 1.5px;
 }

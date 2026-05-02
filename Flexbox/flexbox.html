@@ -79,7 +79,51 @@
         .flex-container6 .div2{
             flex-basis: 200px;
         }
+
+        .flex-container7{
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            gap: 15px;
+        }
+
+        .flex-container7 div{
+            flex-basis: 50px;
+            background-color: orange;
+            flex-grow: 1;
+        }
+
+        .flex-container8{
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            gap: 15px;
+        }
         
+        .flex-container8 div{
+            background-color: crimson;
+            flex-basis: 150px;
+
+        }
+
+        .flex-container8 .div3{
+            flex-shrink: 2;
+        }
+
+        .flex-container9{
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            gap: 15px;
+        }
+
+        .flex-container9 div{
+            background-color: green;
+        }
+
+        .flex-container9 .div3{
+            order: 1;
+        }
     </style>
     <title>Flexbox</title>
 </head>
@@ -124,6 +168,30 @@
 
     <div>
         <div class="flexbox flex-container6">
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div>
+    </div>
+
+    <div>
+        <div class="flexbox flex-container7">
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div>
+    </div>
+
+    <div>
+        <div class="flexbox flex-container8">
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div>
+    </div>
+
+    <div>
+        <div class="flexbox flex-container9">
         <div class="div1">1</div>
         <div class="div2">2</div>
         <div class="div3">3</div>

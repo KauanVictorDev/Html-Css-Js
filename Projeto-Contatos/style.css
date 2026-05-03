@@ -1,0 +1,31 @@
+html, body{
+    height: 100%;
+}
+
+body {
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.main-title {
+    color: #385555;
+}
+
+.list-wrapper{
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 500px;
+    max-height: 400px;
+    border-radius: 5px;
+    overflow-y: auto;
+    box-shadow: 1px 2px 6px solid black;
+}
+

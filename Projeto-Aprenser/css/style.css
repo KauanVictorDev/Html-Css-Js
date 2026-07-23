@@ -15,6 +15,23 @@ p, a{
     text-transform: uppercase;
 }
 
+.btn{
+    background-color: var(--primary-color);
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1.8rem;
+    padding: 1.6rem 4.6rem;
+    display: inline-block;
+    color: #2A2A2A;
+    font-weight: bold;
+    box-shadow: 1px 2px 0.5 solid black;
+}
+
+.btn:hover{
+    background-color: #8f7504af;
+    transition: 0.2s;
+}
+
 .wrapper-container-dark{
     background-color: #2A2A2A;
     color: #fafafa;
@@ -66,3 +83,23 @@ p, a{
 nav a {
     color: inherit;
 }
+
+.wrapper-container-banner{
+    background: linear-gradient(white, rgba(255, 255, 0, 0.89));
+}
+
+.hero-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-size: 4.8rem;
+}
+
+.banner-title{
+    margin-bottom: 4rem;
+}
+
+
